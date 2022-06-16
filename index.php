@@ -12,8 +12,8 @@ function get_hr(){
 }
 }
 $current = new currentDT();
-current->set_hr(date("H"));
-echo current->get_hr();
+$current->set_hr(date("H"));
+echo $current->get_hr();
 
  
 ?>
