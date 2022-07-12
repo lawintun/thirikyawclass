@@ -5,6 +5,7 @@
   document.getElementById("sng").play();
 }
  </script>
+  <link rel="stylesheet" href="style.css">
  </head>
    <body>
       <audio id="sng" loop>
