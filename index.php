@@ -8,6 +8,12 @@
       <audio id="sng" loop>
         <source src="music.mp3"> <hr>
       </audio>
-   <button onclick="fun()" >PLAY</button> <hr>
+    
+    <div class="container">
+  <div class="center">
+    <button onclick="fun()" >PLAY</button> 
+  </div>
+</div>
+   <hr>
    </body>
 </html>
