@@ -1,7 +1,7 @@
 <html>
  <head><title></title></head>
    <body>
-      <audio controls>
+      <audio autoplay loop>
         <source src="music.mp3">
       </audio>
    </body>
