@@ -15,5 +15,15 @@
   </div>
 </div>
    <hr>
+    
+    <div class="main-editor">
+        <button class="btn">Run</button>
+        <div class="first" contenteditable>
+            writecode
+        </div>
+        <iframe class="second">
+        </iframe>
+    </div>
+    
    </body>
 </html>
