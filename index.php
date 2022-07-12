@@ -1,17 +1,13 @@
 <html>
  <head><title></title>
   <script type="text/javascript" src="script.js"></script>
- <script>
-  function fun() {
-  document.getElementById("sng").play();
-}
- </script>
+ 
   <link rel="stylesheet" href="style.css">
  </head>
    <body>
       <audio id="sng" loop>
         <source src="music.mp3"> <hr>
       </audio>
-   <center><button onclick="fun()" >PLAY</button></center> <hr>
+   <button onclick="fun()" >PLAY</button> <hr>
    </body>
 </html>
