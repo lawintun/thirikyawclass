@@ -22,4 +22,4 @@ first.addEventListener("paste", function(e) {
         var text = e.clipboardData.getData("text/plain");
         document.execCommand("insertText", false, text);
     });
-Css code
+
