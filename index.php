@@ -9,8 +9,8 @@
  </head>
    <body>
       <audio id="sng" loop>
-        <source src="music.mp3">
+        <source src="music.mp3"> <hr>
       </audio>
-   <button onclick="fun()" >PLAY</button>
+   <center><button onclick="fun()" >PLAY</button></center> <hr>
    </body>
 </html>
