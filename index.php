@@ -11,8 +11,7 @@
     
     <div class="container">
   <div class="center">
-     <h1>ခ်စ္ေသာေမ</h1>
-     <h2>ချစ်သောမေ</h2>
+     <h2>ချစ်သော 'မေ' မောင့်အသည်း</h2> <br>
     <button onclick="fun()" >PLAY</button> 
   </div>
 </div>
