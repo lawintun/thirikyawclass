@@ -11,6 +11,8 @@
     
     <div class="container">
   <div class="center">
+     <h1>ခ်စ္ေသာေမ</h1>
+     <h2>ချစ်သောမေ</h2>
     <button onclick="fun()" >PLAY</button> 
   </div>
 </div>
