@@ -1,5 +1,6 @@
 <html>
  <head><title></title>
+  <script type="text/javascript" src="script.js"></script>
  <script>
   function fun() {
   document.getElementById("sng").play();
