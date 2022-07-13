@@ -11,7 +11,7 @@
     
     <div class="container">
   <div class="center">
-     <h2>ချစ်သော 'မေ' မောင့်အသည်း</h2> <br>
+     <h2>Lawintun's Classwork </h2> <br>
 </div>
 </div>
 <div class="container">
