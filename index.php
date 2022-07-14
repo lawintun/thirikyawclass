@@ -1,8 +1,8 @@
 <html>
  <head><title></title>
   <script type="text/javascript" src="script.js"></script>
- <script src="three.r119.min.js"></script>
-<script src="vanta.clouds.min.js"></script>
+ <script src="three.min.js"></script>
+<script src="clouds.min.js"></script>
 <script>
 VANTA.CLOUDS({
   el: "#your-element-selector",
