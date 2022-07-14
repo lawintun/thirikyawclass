@@ -2,24 +2,17 @@
   function fun() {
   document.getElementById("sng").play();
 }
-const first = document.querySelector(".first");
-const iframe = document.querySelector("iframe");
-const btn = document.querySelector("button");
+var myIndex = 0;
+carousel();
 
-btn.addEventListener("click", () => {
-  var html = first.textContent;
-  iframe.src = "data:text/html;charset=utf-8," + encodeURI(html);
-});
-
-
-first.addEventListener('keyup',()=>{
-  var html = first.textContent;
-  iframe.src = "data:text/html;charset=utf-8," + encodeURI(html);
-})
-
-first.addEventListener("paste", function(e) {
-        e.preventDefault();
-        var text = e.clipboardData.getData("text/plain");
-        document.execCommand("insertText", false, text);
-    });
-
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 3 seconds
+}
