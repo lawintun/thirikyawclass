@@ -1,5 +1,5 @@
 h2 { color: grey;}
-
+.mySlides {display:none;}
 .container {
   height: 200px;
   position: relative;
@@ -17,4 +17,4 @@ h2 { color: grey;}
 
 
 
-.mySlides {display:none;}
+
