@@ -16,11 +16,5 @@ h2 { color: grey;}
 }
 
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 8px;
-}
-
 
 .mySlides {display:none;}
