@@ -4,7 +4,7 @@
  
   <link rel="stylesheet" href="style.css">
  </head>
-   <body>
+   <body class="bg">
       <audio id="sng" loop>
         <source src="music.mp3"> <hr>
       </audio>
