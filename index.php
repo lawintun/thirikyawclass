@@ -21,7 +21,14 @@
 </div>
    <hr>
     
-    
+    <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="IMG_20220714_165446.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_20220714_171041.jpg" style="width:100%">
+  <img class="mySlides" src="IMG_20220714_171108.jpg" style="width:100%">
+<img class="mySlides" src="IMG_20220714_171205.jpg" style="width:100%">
+<img class="mySlides" src="IMG_20220714_171133.jpg" style="width:100%">
+
+</div>
     
    </body>
 </html>
