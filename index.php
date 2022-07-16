@@ -11,15 +11,13 @@
 <audio id="snd" loop>
         <source src="Khinkhinhtar.mp3"> <hr>
       </audio>
-<div class="container">
-<div class="center">
+<center">
     <button onclick="fun()" >PLAY</button> 
-  </div>
-</div>
+</center>
    <hr>
-<div class="center">
+<center">
     <button onclick="func()" >Play</button> 
-  </div>
+</center>
 
    </body>
 </html>
