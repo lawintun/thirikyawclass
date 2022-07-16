@@ -19,7 +19,7 @@
    <hr>
 <div class="container">
 <div class="center">
-    <button onclick="func()" >PLAY</button> 
+    <button onclick="func()" >Play</button> 
   </div>
 </div>
    </body>
