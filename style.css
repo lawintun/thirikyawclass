@@ -10,7 +10,7 @@ h2 { color: grey;}
 }
 
 .hero-image {
-  background-image: url("pp.jpg"); /* The image used */
+  background-image: url("PP.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
