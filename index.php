@@ -3,26 +3,26 @@
   <script type="text/javascript" src="script.js"></script>
   <link rel="stylesheet" href="style.css">
  </head>
-   <body class="bg">
-      <audio id="sng" loop>
-        <source src="music.mp3"> <hr>
-      </audio>
-    
-    <div class="container">
-  <div class="center">
-     <h2>Lawintun's Classwork </h2> <br>
-</div>
-</div>
+   <body>
 <div class="container">
 <div class="center">
     <button onclick="fun()" >PLAY</button> 
   </div>
 </div>
    <hr>
-    <video width="400" controls>
-  <source src="mov_bbb.mp4" type="video/mp4">
-  Your browser does not support HTML video.
-</video>
+    <ul class="slideshow">
+  <li><span>Image 01</span><div><h3>A little something something</h3></div></li>
+  <li><span>Image 02</span></li>
+  <li><span>Image 03</span></li>
+  <li><span>Image 04</span></li>
+  <li><span>Image 05</span></li>
+  <li><span>Image 06</span></li>
+</ul>
+  <div class="container">
+    <header>
+      <h1>CSS3 <span>Fullscreen Slideshow</span></h1>
+  </header>
+</div>
     
    </body>
 </html>
