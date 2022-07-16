@@ -5,6 +5,14 @@
  </head>
    <body>
 
-    
+    <audio id="sng" loop>
+        <source src="music.mp3"> <hr>
+      </audio>
+<div class="container">
+<div class="center">
+    <button onclick="fun()" >PLAY</button> 
+  </div>
+</div>
+   <hr>
    </body>
 </html>
