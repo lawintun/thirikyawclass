@@ -8,11 +8,19 @@
     <audio id="sng" loop>
         <source src="music.mp3"> <hr>
       </audio>
+<audio id="snd" loop>
+        <source src="Khinkhinhtar.mp3"> <hr>
+      </audio>
 <div class="container">
 <div class="center">
     <button onclick="fun()" >PLAY</button> 
   </div>
 </div>
    <hr>
+<div class="container">
+<div class="center">
+    <button onclick="func()" >PLAY</button> 
+  </div>
+</div>
    </body>
 </html>
