@@ -4,9 +4,8 @@
   <link rel="stylesheet" href="style.css">
  </head>
    <body>
-<div class="bg">
+
   <img src="PP.jpg"></img>
-</div>
     
    </body>
 </html>
