@@ -5,7 +5,7 @@
  </head>
    <body>
 <div class="hero-image">
-  
+  <img src="PP.jpg"></img>
 </div>
     
    </body>
