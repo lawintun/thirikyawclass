@@ -13,7 +13,7 @@
 
  
   function runMyFunction() { 
-$uname = $_POST['uname'];
+$uname = $_GET['uname'];
    if ( $uname == "Dawpyae192168" ) {
             header("location:home.php");
   }
