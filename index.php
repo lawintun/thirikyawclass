@@ -22,7 +22,7 @@
       <input type="password" id="pwd" required>
       <label>Password</label>
     </div>
-    <a href="#" id="linking" method="get" >
+    <a href="#" id="linking" onclick="runMyfunct()" >
       <span></span>
       <span></span>
       <span></span>
