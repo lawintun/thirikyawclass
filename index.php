@@ -51,7 +51,7 @@ if (isset($_POST['submit'])){
       <input type="password" name="pwd" required>
       <label>Password</label>
     </div>
-    <a href="#" name = "submit" >
+    <a href="#" >
       <span></span>
       <span></span>
       <span></span>
