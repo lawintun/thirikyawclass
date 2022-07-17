@@ -9,6 +9,6 @@ function func() {
 }
 
 
-function myFunction(){
+function myfunction(){
   alert("welcome");
 }
