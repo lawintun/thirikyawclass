@@ -10,23 +10,16 @@
 </head>
    <body>
 <?php
- function runMyFunctiontwo() {
-   echo 'bla bla';
-}
+ 
  
   function runMyFunction() { 
 
 echo "<script>
   if( document.getElementById('uname') == 'DawPyae192168' ) {
     window.location.replace('home.php');
+    document.getElementById('linking').removeAttribute('href');
 } 
- else if (document.getElementById('uname') == ' '){
-  alert('Username is empty !');
 
-}
- else {
-  alert('Username field is empty ! ');
-}
 
 </script>";
 }
@@ -34,9 +27,7 @@ echo "<script>
   if (isset($_GET['hello'])) {
     runMyFunction();
 }
-  else {
-    runMyFunctiontwo();
-}
+  
 
 ?>
 
