@@ -12,6 +12,7 @@
 <?php
     header('X-Frame-Options: GOFORIT'); 
 ?>
+/ *
 <?php
 $uname = $_POST['uname'];
 $pwd = $_POST['pwd'];
@@ -36,7 +37,7 @@ if (isset($_POST['submit'])){
     }
 }
 ?>
-
+*/
 
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
