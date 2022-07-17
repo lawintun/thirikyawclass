@@ -18,5 +18,5 @@ h2 { color: grey;}
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-img { width:auto; height:100%;}
+img { width:1080px; height:1080px;}
 
