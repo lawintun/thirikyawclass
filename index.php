@@ -38,14 +38,13 @@ if (isset($_POST['submit'])){
 
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
-  <p class="error"><?php echo $error ?></p><p class="success"><?php echo $success ?></p>
   <form method="post">
     <div class="user-box">
-      <input type="text" name="uname" required="">
+      <input type="text" name="uname" required>
       <label>Username</label>
     </div>
     <div class="user-box">
-      <input type="password" name="pwd" required="">
+      <input type="password" name="pwd" required>
       <label>Password</label>
     </div>
     <a href="#" name = "submit" >
