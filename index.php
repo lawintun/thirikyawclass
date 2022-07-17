@@ -18,10 +18,6 @@
       <input type="text" name="uname" id="uname" required="">
       <label>Username</label>
     </div>
-<div class="user-box">
-      <input type="password" id="pwd" name="pwd" required=" ">
-      <label>Password</label>
-    </div>
     <a href="#">
       <span></span>
       <span></span>
