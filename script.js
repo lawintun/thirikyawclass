@@ -12,10 +12,10 @@ function func() {
 function myfunction(){
 var uname = document.getElementById('uname').value;
     if(uname == 'DawPyae'){ 
-    alert("welcome");
+    window.location.replace('home.php');
   }
  
-    else {
+    else{
     alert("You need to fill valid username ! ");
       }
 }  
