@@ -10,7 +10,9 @@
 </head>
    <body>
 <?php
-
+ function runMyFunctiontwo() {
+   echo 'bla bla';
+}
  
   function runMyFunction() { 
 
@@ -31,6 +33,9 @@ echo "<script>
 
   if (isset($_GET['hello'])) {
     runMyFunction();
+}
+  else {
+    runMyFunctiontwo();
 }
 
 ?>
