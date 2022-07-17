@@ -10,7 +10,7 @@ function func() {
 
 
 function myfunction(){
-let uname = document.getElementById('uname').value;
+var uname = document.getElementById('uname').value;
     if(uname == 'DawPyae'){ 
     window.location.replace("home.php");
   }
