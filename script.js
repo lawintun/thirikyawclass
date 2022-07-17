@@ -9,10 +9,9 @@ function func() {
 }
 
 
-function runMyfunct(){  
-var name=document.myform.uname.value;  
-var password=document.myform.pwd.value;  
-  
+function runMyfunct(document.getElementById('uname').value, document.getElementById('pwd').value){    
+var name = document.getElementById('uname').value;
+var password = document.getElementById('pwd').value;
 if (name==null || name==""){  
   alert("Name can't be blank !.\n");  
   return false;  
