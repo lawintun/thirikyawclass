@@ -18,7 +18,7 @@ $uname = $_POST['uname'];
             header("location:home.php");
   }
    else {
-        header("location:index.php");
+        echo "<script> alert("Hello! I am an alert box!"); </script>";
   }
 }
 
