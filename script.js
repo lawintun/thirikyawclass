@@ -13,7 +13,7 @@ function myfunction(){
   if (document.getElementById("uname").value == " "){  
    alert("Username can't be empty ! .\n");   
 }  
-  else if ( document.getElementById("pwd").value == " "){
+  else{
   alert("Password field can't be empty ! .\n");
 }   
 
