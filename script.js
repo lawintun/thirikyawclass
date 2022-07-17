@@ -9,7 +9,7 @@ function func() {
 }
 
 
-function runMyFunct(fld) {
+function runMyfunct(fld) {
     var error = "";
     var illegalChars = /\W/; // allow letters, numbers, and underscores
  
