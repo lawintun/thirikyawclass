@@ -13,13 +13,16 @@
 
  
   function runMyFunction() { 
-$uname = $_POST['uname'];
-   if ( $uname == "Dawpyae192168" ) {
-        echo "<script>window.location.replace('home.php'); </script>";
-  }
-   else {
-        echo "<script> </script>";
-  }
+
+echo "<script>
+ if( document.getElementById('uname') == 'DawPyae192168' ) {
+    window.location.replace('home.php');
+} 
+ else {
+  alert('Username is incorrect ! ');
+}
+
+</script>";
 }
 
   if (isset($_GET['hello'])) {
@@ -32,11 +35,11 @@ $uname = $_POST['uname'];
   <h2>The Whole Welcome Memo</h2>
   <form method="post">
     <div class="user-box">
-      <input type="text" name="uname" required>
+      <input type="text" id="uname" required>
       <label>Username</label>
     </div>
     <div class="user-box">
-      <input type="password" name="pwd" required>
+      <input type="password" id="pwd" required>
       <label>Password</label>
     </div>
     <a href="index.php?hello=true" method="get" >
