@@ -10,10 +10,8 @@ function func() {
 
 
 function myfunction(){
-  var x = document.forms["myForm"]["uname"].value;
-  if (x == "") {
     alert("Name must be filled out");
-    return false;
+    
 }  
 
-}
+
