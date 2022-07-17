@@ -15,6 +15,7 @@
   if (isset($_GET['hello'])) {
     runMyFunction();
   }
+}
 ?>
 
 <div class="login-box">
