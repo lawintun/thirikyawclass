@@ -22,7 +22,7 @@
       <input type="password" id="pwd" name="pwd" required>
       <label>Password</label>
     </div>
-    <a href="#" id="linking" onclick="runMyfunct()" >
+    <a href="#" id="linking" onclick="runMyfunct(document.getElementById('uname').value, document.getElementById('pwd').value)" >
       <span></span>
       <span></span>
       <span></span>
