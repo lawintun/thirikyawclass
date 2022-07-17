@@ -21,7 +21,7 @@
 
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
-  <form>
+  <form method="post">
     <div class="user-box">
       <input type="text" required="">
       <label>Username</label>
