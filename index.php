@@ -17,16 +17,16 @@
 
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
-  <form>
+  <form action="home.php" method="post">
     <div class="user-box">
-      <input type="text" name="" required="">
+      <input type="text" name="uname" required="">
       <label>Username</label>
     </div>
     <div class="user-box">
-      <input type="password" name="" required="">
+      <input type="password" name="pwd" required="">
       <label>Password</label>
     </div>
-    <a href="#">
+    <a href="#" >
       <span></span>
       <span></span>
       <span></span>
