@@ -16,7 +16,7 @@
 
 
 <div class="login-box">
-  <h2>Login</h2>
+  <h2>TUM The Whole Welcome Event</h2>
   <form>
     <div class="user-box">
       <input type="text" name="" required="">
