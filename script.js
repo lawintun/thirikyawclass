@@ -12,7 +12,7 @@ function func() {
 function myfunction(){
 var uname = document.getElementById('uname').value;
     if(uname == 'DawPyae'){ 
-    window.location.replace("https://www.google.com/");
+    document.getElementById('myform').hide();
   }
  
     else{
