@@ -21,7 +21,7 @@ if (name==null || name==""){
 else if((name == "DawPyae192168")&&(password == "Mikoyan35")){
    window.location.replace("home.php");
    return true;
-}
+
 
 }else if(password.length<9){  
   alert("Password must be at least 9 characters long.");  
@@ -29,5 +29,6 @@ else if((name == "DawPyae192168")&&(password == "Mikoyan35")){
   }  
  else if (password == " "){
   alert ("password field can't be empty !.\n");
+ return false;
 }
 }  
