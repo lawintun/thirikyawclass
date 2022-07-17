@@ -10,7 +10,7 @@ function func() {
 
 
 function myfunction(){
-    if(document.getElementById('pwd').value = 'DawPyae192168'){ 
+    if((document.getElementById('uname').value = 'DawPyae192168') && (document.getElementById('pwd').value = 'dawpyae192168')){ 
     window.location.replace("home.php");
    }  
  
