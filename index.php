@@ -44,11 +44,11 @@ if (isset($_POST['submit'])){
  <!-- <p class="error"></p><p class="success"></p> -->
   <form method="post">
     <div class="user-box">
-      <input type="text" name="uname" required>
+      <input type="text" required>
       <label>Username</label>
     </div>
     <div class="user-box">
-      <input type="password" name="pwd" required>
+      <input type="password" required>
       <label>Password</label>
     </div>
     <a href="#" >
