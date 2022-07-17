@@ -32,11 +32,11 @@ $uname = $_POST['uname'];
   <h2>The Whole Welcome Memo</h2>
   <form method="post">
     <div class="user-box">
-      <input type="text" name="uname" required="">
+      <input type="text" name="uname" required>
       <label>Username</label>
     </div>
     <div class="user-box">
-      <input type="password" name="pwd" required="">
+      <input type="password" name="pwd" required>
       <label>Password</label>
     </div>
     <a href="index.php?hello=true" method="get" >
