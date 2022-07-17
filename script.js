@@ -11,15 +11,7 @@ function func() {
 
 function myfunction(){
   if (document.getElementById("uname").value == "DawPyae192168"){  
-   alert("Username can't be empty ! .\n");   
+   alert("True");   
 }  
-  else if{
-  if (document.getElementById("uname").value == "DawPyae192168"){
-   alert("Ok");
-}
-}   
-   else {
-  alert("No");
-}
 
 }
