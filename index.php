@@ -14,9 +14,6 @@
 ?>
 
 
-<div class="container"> 
-  <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" allow="autoplay"></iframe>
-</div>
 
 <div class="login-box">
   <h2>Login</h2>
