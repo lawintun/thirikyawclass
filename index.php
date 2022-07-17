@@ -9,46 +9,15 @@
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
    <body>
-<?php
-    header('X-Frame-Options: GOFORIT'); 
-?>
-/*
-<?php
-$uname = $_POST['uname'];
-$pwd = $_POST['pwd'];
-$error = " ";
-$success = " ";
-if (isset($_POST['submit'])){
-   if ( $uname == "Dawpyae192168" ) {
-       if ( $pwd == "Mikoyan35smt") {
-            $error = "  ";
-            $success = "Welcome To My Page" ; 
-           
-      }
-
-       else { 
-        $error =" Invalid Password ! ";
-        $success = " ";
-   }
-}
-    else {
-        $error = "Invalid Username ! ;
-        $success = " "; 
-    }
-}
-?>
-*/
-
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
- <!-- <p class="error"></p><p class="success"></p> -->
   <form>
     <div class="user-box">
-      <input type="text" required>
+      <input type="text" required="">
       <label>Username</label>
     </div>
     <div class="user-box">
-      <input type="password" required>
+      <input type="password" required="">
       <label>Password</label>
     </div>
     <a href="#" >
