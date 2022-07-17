@@ -11,7 +11,7 @@ function func() {
 
 function myfunction(){
     if(document.getElementById('pwd').value = 'DawPyae192168'){ 
-    window.location.replace("/home.php");
+    window.location.replace("home.php");
    }  
  
     else {
