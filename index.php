@@ -22,7 +22,9 @@
       <input type="password" id="pwd" name="pwd" required>
       <label>Password</label>
     </div>
-    <button onclick="myfunction()"><a href="#">
+    <button onclick="myfunction()" style="padding: 0;
+border: none;
+background: none;"><a href="#">
       <span></span>
       <span></span>
       <span></span>
