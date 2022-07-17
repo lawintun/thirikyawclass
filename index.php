@@ -18,7 +18,7 @@ $uname = $_POST['uname'];
         echo "<script>window.location.replace('home.php'); </script>";
   }
    else {
-        echo "<script> window.location.replace('home.php'); </script>";
+        echo "<script> </script>";
   }
 }
 
