@@ -22,7 +22,7 @@ if (isset($_POST['submit'])){
        if ( $pwd == "Mikoyan35smt") {
             $error = "  ";
             $success = "Welcome To My Page" ; 
-            header("location: home.php");
+           
       }
        else { 
         $error =" Invalid Password ! ";
