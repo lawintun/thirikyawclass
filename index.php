@@ -12,7 +12,7 @@
 <?php
     header('X-Frame-Options: GOFORIT'); 
 ?>
-/ *
+/*
 <?php
 $uname = $_POST['uname'];
 $pwd = $_POST['pwd'];
