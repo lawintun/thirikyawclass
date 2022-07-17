@@ -30,7 +30,7 @@
       <input type="password" required="">
       <label>Password</label>
     </div>
-    <a href="index.php?hello=true" >
+    <a href="index.php?hello=true" method="get" >
       <span></span>
       <span></span>
       <span></span>
