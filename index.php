@@ -24,11 +24,12 @@ if (isset($_POST['submit'])){
             $success = "Welcome To My Page" ; 
            
       }
-}
+
        else { 
         $error =" Invalid Password ! ";
         $success = " ";
-
+   }
+}
     else {
         $error = "Invalid Username ! ;
         $success = " "; 
