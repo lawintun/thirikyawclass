@@ -18,7 +18,6 @@ $uname = $_POST['uname'];
 $pwd = $_POST['pwd'];
 $error = " ";
 $success = " ";
-if (isset($_POST['submit'])){
    if ( $uname == "Dawpyae192168" ) {
        if ( $pwd == "Mikoyan35smt") {
             $error = "  ";
@@ -49,11 +48,11 @@ if (isset($_POST['submit'])){
   <h2>The Whole Welcome Memo</h2>
   <form method="post">
     <div class="user-box">
-      <input type="text" required="">
+      <input type="text" name="uname" required="">
       <label>Username</label>
     </div>
     <div class="user-box">
-      <input type="password" required="">
+      <input type="password" name="pwd" required="">
       <label>Password</label>
     </div>
     <a href="index.php?hello=true" method="get" >
