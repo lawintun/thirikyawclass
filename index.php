@@ -15,12 +15,12 @@
   function runMyFunction() { 
 
 echo "<script>
- document.getElementById('linking').removeAttribute('href'); 
- if( document.getElementById('uname') == 'DawPyae192168' ) {
+  if( document.getElementById('uname') == 'DawPyae192168' ) {
     window.location.replace('home.php');
 } 
- else {
-  alert('Username is incorrect ! ');
+ else if (document.getElementById('uname') == ' '){
+  alert('Username is incorrect ! or empty !');
+
 }
 
 </script>";
