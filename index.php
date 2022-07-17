@@ -39,9 +39,9 @@
        </div>
      </ul>
    </nav>
-  <center>
-  <iframe src="https://drive.google.com/file/d/1PqfKUuSmbvxcZXmVJF1PsdUEHNPtX91-/preview" 
-width="640" height="480" allow="autoplay"></iframe>
-    </center> 
+
+<div class="container"> 
+  <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PqfKUuSmbvxcZXmVJF1PsdUEHNPtX91-/preview"></iframe>
+</div>
    </body>
 </html>
