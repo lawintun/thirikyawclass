@@ -10,7 +10,7 @@ function func() {
 
 
 function myfunction(){
-  if (document.getElementById("uname").value == " "){  
+  if (document.getElementById("uname").value == "DawPyae192168"){  
    alert("Username can't be empty ! .\n");   
 }  
   else{
