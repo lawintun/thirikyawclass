@@ -22,16 +22,15 @@
       <input type="password" id="pwd" name="pwd" required>
       <label>Password</label>
     </div>
-    <button onclick="myfunction()" style="padding: 0;
+    <a href="#"><input type="submit" onclick="myfunction()" style="padding: 0;
 border: none;
-background: none;"><a href="#">
+background: none;">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       Submit
     </a>
-</button>
   </form>
 </div>
 
