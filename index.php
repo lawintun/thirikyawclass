@@ -13,7 +13,7 @@
 
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
-  <form method="post" name="myform" id="myform">
+  <form method="post" name="myform" id="myform" >
     <div class="user-box">
       <input type="text" id="uname" name="uname" required>
       <label>Username</label>
@@ -22,15 +22,14 @@
       <input type="password" id="pwd" name="pwd" required>
       <label>Password</label>
     </div>
-    <a href="#"><input type="submit" onclick="myfunction()" style="padding: 0;
-border: none;
-background: none;" value=" ">
+    <a href="#" onclick="myfunction()">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       Submit
     </a>
+
   </form>
 </div>
 
