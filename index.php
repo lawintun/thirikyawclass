@@ -24,6 +24,7 @@ if (isset($_POST['submit'])){
             $success = "Welcome To My Page" ; 
            
       }
+}
        else { 
         $error =" Invalid Password ! ";
         $success = " ";
@@ -32,12 +33,13 @@ if (isset($_POST['submit'])){
         $error = "Invalid Username ! ;
         $success = " "; 
     }
-}
+
 ?>
 
 
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
+  <p class="error"><?php echo $error ?></p><p class="success"><?php echo $success ?></p>
   <form method="post">
     <div class="user-box">
       <input type="text" name="uname" required>
