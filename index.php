@@ -15,6 +15,7 @@
   function runMyFunction() { 
 
 echo "<script>
+ document.getElementById('linking').removeAttribute('href'); 
  if( document.getElementById('uname') == 'DawPyae192168' ) {
     window.location.replace('home.php');
 } 
@@ -42,7 +43,7 @@ echo "<script>
       <input type="password" id="pwd" required>
       <label>Password</label>
     </div>
-    <a href="index.php?hello=true" method="get" >
+    <a href="index.php?hello=true" id="linking" method="get" >
       <span></span>
       <span></span>
       <span></span>
