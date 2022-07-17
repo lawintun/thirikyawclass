@@ -22,13 +22,14 @@
       <input type="password" id="pwd" name="pwd" required>
       <label>Password</label>
     </div>
-    <a href="#" id="linking" onclick="myfunction()">
+    <button onclick="myfunction()"><a href="#">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       Submit
     </a>
+</button>
   </form>
 </div>
 
