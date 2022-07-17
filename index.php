@@ -24,7 +24,7 @@
     </div>
     <a href="#"><input type="submit" onclick="myfunction()" style="padding: 0;
 border: none;
-background: none;">
+background: none;" value=" ">
       <span></span>
       <span></span>
       <span></span>
