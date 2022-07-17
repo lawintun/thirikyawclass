@@ -16,7 +16,7 @@
 
 
 <div class="login-box">
-  <h2 style="color:grey;">The Whole Welcome Memo</h2>
+  <h2>The Whole Welcome Memo</h2>
   <form>
     <div class="user-box">
       <input type="text" name="" required="">
