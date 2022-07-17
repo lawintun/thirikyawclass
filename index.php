@@ -42,7 +42,7 @@ if (isset($_POST['submit'])){
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
  <!-- <p class="error"></p><p class="success"></p> -->
-  <form method="post">
+  <form>
     <div class="user-box">
       <input type="text" required>
       <label>Username</label>
