@@ -12,12 +12,33 @@
 <?php
     header('X-Frame-Options: GOFORIT'); 
 ?>
-
+<?php
+$uname = $_POST['uname'];
+$pwd = $_POST['pwd'];
+$error = " ";
+$success = " ";
+if (isset($_POST['submit'])){
+   if ( $uname == "Dawpyae192168" ) {
+       if ( $pwd == "Mikoyan35smt") {
+            $error = "  ";
+            $success = "Welcome To My Page" ; 
+            header("location: home.php");
+      }
+       else { 
+        $error =" Invalid Password ! ";
+        $success = " ";
+}
+    else {
+        $error = "Invalid Username ! ;
+        $success = " "; 
+    }
+}
+?>
 
 
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
-  <form action="home.php" method="post">
+  <form method="post">
     <div class="user-box">
       <input type="text" name="uname" required="">
       <label>Username</label>
@@ -26,7 +47,7 @@
       <input type="password" name="pwd" required="">
       <label>Password</label>
     </div>
-    <a href="#" >
+    <a href="#" name = "submit" >
       <span></span>
       <span></span>
       <span></span>
