@@ -10,8 +10,10 @@ function func() {
 
 
 function myfunction(){
-  if (document.getElementById("uname").value == "DawPyae192168"){  
-   alert("True");   
+  var x = document.forms["myForm"]["uname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
 }  
 
 }
