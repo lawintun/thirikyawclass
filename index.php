@@ -9,27 +9,7 @@
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
    <body>
-<?php
- 
- 
-  function runMyFunction() { 
 
-echo "<script>
-  if( document.getElementById('uname') == 'DawPyae192168' ) {
-    window.location.replace('home.php');
-    document.getElementById('linking').removeAttribute('href');
-} 
-
-
-</script>";
-}
-
-  if (isset($_GET['hello'])) {
-    runMyFunction();
-}
-  
-
-?>
 
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
@@ -42,7 +22,7 @@ echo "<script>
       <input type="password" id="pwd" required>
       <label>Password</label>
     </div>
-    <a href="index.php?hello=true" id="linking" method="get" >
+    <a href="#" id="linking" method="get" >
       <span></span>
       <span></span>
       <span></span>
