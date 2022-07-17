@@ -19,8 +19,11 @@ echo "<script>
     window.location.replace('home.php');
 } 
  else if (document.getElementById('uname') == ' '){
-  alert('Username is incorrect ! or empty !');
+  alert('Username is empty !');
 
+}
+ else {
+  alert('Username field is empty ! ');
 }
 
 </script>";
