@@ -41,7 +41,7 @@
    </nav>
 
 <div class="container"> 
-  <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PqfKUuSmbvxcZXmVJF1PsdUEHNPtX91-/preview"></iframe>
+  <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1PqfKUuSmbvxcZXmVJF1PsdUEHNPtX91-/view?usp=sharing"></iframe>
 </div>
    </body>
 </html>
