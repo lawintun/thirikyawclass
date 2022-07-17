@@ -15,7 +15,7 @@
   function runMyFunction() { 
 $uname = $_POST['uname'];
    if ( $uname == "Dawpyae192168" ) {
-            header("location:home.php");
+        echo "<script>window.location.replace('home.php'); </script>
   }
    else {
         echo "<script> alert('Hello! I am an alert box!'); </script>";
