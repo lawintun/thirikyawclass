@@ -1,8 +1,14 @@
 
 .vdoview{
 
-  display: block;
+  width : 100% ;
+  height : 50%;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 
+}
+iframe {
+ display:block; 
+ width:100%;
+ height: 100%;
 }
