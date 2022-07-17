@@ -13,29 +13,9 @@
 
  
   function runMyFunction() { 
-
 $uname = $_POST['uname'];
-$pwd = $_POST['pwd'];
-$error = " ";
-$success = " ";
    if ( $uname == "Dawpyae192168" ) {
-       if ( $pwd == "Mikoyan35smt") {
-            $error = "  ";
-            $success = "Welcome To My Page" ; 
-            header("location: home.php");
-      }
-       else { 
-        $error =" Invalid Password ! ";
-        $success = " ";
-  }
-}
-    else {
-        $error = "Invalid Username ! ;
-        $success = " "; 
-    }
-}
-
-
+            header("location:home.php");
   }
 
   if (isset($_GET['hello'])) {
