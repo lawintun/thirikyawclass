@@ -10,5 +10,11 @@ function func() {
 
 
 function myfunction(){
-  alert("welcome");
+  if (document.getElementById("uname").value == " "){  
+   alert("Username can't be empty ! .\n");   
+}  
+  else if ( document.getElementById("pwd).value == " "){
+  alert("Password field can't be empty ! .\n");
+}   
+
 }
