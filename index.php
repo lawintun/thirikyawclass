@@ -13,13 +13,13 @@
 
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
-  <form method="post">
+  <form method="post" name="myform" id="myform">
     <div class="user-box">
-      <input type="text" id="uname" required>
+      <input type="text" id="uname" name="uname" required>
       <label>Username</label>
     </div>
     <div class="user-box">
-      <input type="password" id="pwd" required>
+      <input type="password" id="pwd" name="pwd" required>
       <label>Password</label>
     </div>
     <a href="#" id="linking" onclick="runMyfunct()" >
