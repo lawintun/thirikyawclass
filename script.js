@@ -10,7 +10,9 @@ function func() {
 
 
 function myfunction(){
-    alert("Name must be filled out");
+    if(document.getElementById('uname').value == 'DawPyae192168') {
+    window.location.replace("home.php");
+}   
     
 }  
 
