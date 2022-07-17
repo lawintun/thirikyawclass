@@ -13,7 +13,7 @@
 
 <div class="login-box">
   <h2>The Whole Welcome Memo</h2>
-  <form>
+  <form onsubmit="return myfunction()">
     <div class="user-box">
       <input type="text" name="uname" id="uname" required="">
       <label>Username</label>
@@ -27,7 +27,7 @@
       <span></span>
       <span></span>
       <span></span>
-      <input type="Submit" onclick="myfunction()" style="padding: 0;
+      <input type="Submit" style="padding: 0;
 border: none;
 background: none; color:#57FEFF;" />
     </a>
