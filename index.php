@@ -29,7 +29,7 @@
       <span></span>
       <input type="Submit" onclick="myfunction()" style="padding: 0;
 border: none;
-background: none;" />
+background: none; color:#57FEFF;" />
     </a>
 
   </form>
