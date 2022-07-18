@@ -30,17 +30,27 @@ body{
  margin-bottom : 80px;
 }
 
-input[type="text"]
+input[type="text"],input[type="text"]
 {   color:#fff;
     background: transparent;
     border: none;
 }
 
 button{
-    color:#fff#
-    background: transparent;
-    border: none;
+    
+    background-color: transparent; 
+
+    height: 50px; 
+
+    width: 200px; 
+
+    color: #fff; 
+
+   font-size: 1.5em; 
+
+   box-shadow:rgba(0, 0, 0, 0.6)
 }
+
 
 
 
