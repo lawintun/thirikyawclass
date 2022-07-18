@@ -54,7 +54,7 @@ text-align: center;
   <option value="https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview">Episode 21</option>
   <option value="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview">Episode 20 </option>
 </select>
-<button onClick="newSrc();">Change Iframe Src</button>
+<button onClick="newSrc();">Choose Episode</button>
 </center>
 
 <script>
