@@ -12,10 +12,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <body>
 
-  <iframe id="myiframe" src="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" allow="autoplay" style="width:100%;"></iframe>
+  <iframe id="myiframe" src="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" allow="autoplay" style="width:100%;" hidden></iframe>
 
 <br /><br /><center>
-<button onclick="toggle(this);">Hide Iframe</button>
+<button onclick="toggle(this);">Show Memo</button>
 </center>
 <script>
   let toggle = button => {
@@ -24,10 +24,10 @@
     
     if (hidden) {
        element.removeAttribute("hidden");
-       button.innerText = "Hide Iframe";
+       button.innerText = "Hide Memo";
     } else {
        element.setAttribute("hidden", "hidden");
-       button.innerText = "Show Iframe";
+       button.innerText = "Show Show";
     }
   }
 </script>
