@@ -17,17 +17,15 @@
 <h1>Login</h1>
 </div>
 
-      <div class="wrapper">
-<div class="input-data">
+      
+
    
       <input type="text" class="input" id="usn" placeholder="Username" required="">
-   <div class="underline"></div>
-  </div>
-</div>
+ 
 <br>
-<span>   
+  
    <input type="password" class="input" id="pwd" placeholder="Password" required="">
-</span><br>  
+<br>  
 <button class="col" onclick="myfunction()">
      Submit
 </button>
