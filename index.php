@@ -18,10 +18,11 @@
 </div>
 <div class="main">
    <span>
-      <input type="text" id="usn" placeholder="Username" required=""><br>
+      <input type="text" class="input" id="usn" placeholder="Username" required="">
    </span>
+<br>
 <span>   
-   <input type="password" id="pwd" placeholder="Password" required="">
+   <input type="password" class="input" id="pwd" placeholder="Password" required="">
 </span><br>  
 <button class="col" onclick="myfunction()">
      Submit
