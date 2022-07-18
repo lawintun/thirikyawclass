@@ -10,8 +10,8 @@ function func() {
 
 
 function myfunction(){
-var uname = document.getElementById('uname').value;
-    if(uname == 'DawPyae'){ 
+var uname = document.getElementById("uname").value;
+    if(uname == "DawPyae"){ 
     alert("You win "); }
  
     else{
