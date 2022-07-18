@@ -48,6 +48,35 @@ body{
   
 }
 
+button{
+width: 70px;
+  height: 45px;
+  border-radius:25px;
+  background-color: rgba(0,0,0,0.1);
+  border:none;
+  outline:none;
+  padding-left:38px;
+  box-sizing : border-box;
+  font-size:15px;
+  margin-bottom:20px;
+
+}
+
+input{
+
+width: 70px;
+  height: 45px;
+  border-radius:25px;
+  background-color: rgba(0,0,0,0.1);
+  border:none;
+  outline:none;
+  padding-left:38px;
+  box-sizing : border-box;
+  font-size:15px;
+  margin-bottom:20px;
+
+}
+
 .main button{
  
 padding-left:0;
