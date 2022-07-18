@@ -8,7 +8,7 @@ body{
 
 }
 
-.bg{
+body .bg{
  
 background-image: url (PP.jpg);
 height : 100%;
