@@ -50,7 +50,7 @@ text-align: center;
   <iframe class="responsive-iframe" id="myiframe" src="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" allow="autoplay" style="width:100%;"></iframe>
 </div>
 <br /><br /><center>
-<button onclick="toggle(this);">Change Movies</button>
+<button onclick="toggle(this);">Change Movie</button>
 </center>
 <script>
   let toggle = button => {
@@ -58,12 +58,12 @@ text-align: center;
     let epione = "https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview";
     let epitwo = "https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" ;
 
-    if (element.src = epione) {
+    if (element.src = epitwo) {
        button.innerText = "Episode (2)";
-       element.src = epitwo;
-    } else {
+       element.src = epione;
+    } els {
        button.innerText = "Episode (1)";
-       element.src = epione; 
+       element.src = epitwo; 
     }
   }
 </script>
