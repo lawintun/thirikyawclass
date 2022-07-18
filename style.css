@@ -54,7 +54,7 @@ input:focus {
 }
 
 
-button{
+button,ht{
     
     border: none;
     background-color: transparent; 
