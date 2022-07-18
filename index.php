@@ -19,12 +19,13 @@
       <input type="password" name="" required="">
       <label>Password</label>
     </div>
-    <a href="#">
+    <a href="#"><button class="invisible" onclick="myfunction()">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       Submit
+</button>
     </a>
   </form>
 </div>
