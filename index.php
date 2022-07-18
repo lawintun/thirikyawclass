@@ -22,13 +22,13 @@
    
       <input type="text" class="input" id="usn" placeholder="Username" required="">
  
-<br>
+<br><br>
   
    <input type="password" class="input" id="pwd" placeholder="Password" required="">
-<br>  
+<br>  <br><br><center>
 <button class="col" onclick="myfunction()">
      Submit
-</button>
+</button></center>
 </div>
 
 <div class="light">
