@@ -16,7 +16,6 @@
 <div class="header">
 <h1>Login</h1>
 </div>
-<div class="main">
    <span>
       <input type="text" class="input" id="usn" placeholder="Username" required="">
    </span>
@@ -27,7 +26,6 @@
 <button class="col" onclick="myfunction()">
      Submit
 </button>
-</div>
 </div>
    </body>
 </html>
