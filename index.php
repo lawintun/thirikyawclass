@@ -10,7 +10,7 @@
 </head>
    <body>
 
-
+Name : <input type="text" id="name"/>
 <button onclick="myfunction()">Button</button>
 
    </body>
