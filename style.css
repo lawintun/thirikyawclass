@@ -40,9 +40,9 @@ button{
     
     background-color: transparent; 
 
-    height: 50px; 
+    height: 45px; 
 
-    width: 200px; 
+    width: 70px; 
 
     color: #fff; 
 
@@ -52,7 +52,18 @@ button{
 }
 
 
+::placeholder { 
+  color: #fff;
+  opacity: 1; 
+}
 
+:-ms-input-placeholder { 
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
 
 
 
