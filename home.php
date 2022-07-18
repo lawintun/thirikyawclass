@@ -46,13 +46,11 @@ text-align: center;
    <body>
 <script type="text/javascript" src="script.js">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
-<body>
 <div class="container">
   <iframe class="responsive-iframe" id="myiframe" src="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" allow="autoplay" style="width:100%;"></iframe>
 </div>
 <br /><br /><center>
-<button onclick="toggle(this);">Show Memo</button>
+<button onclick="toggle(this);">Hide Memo</button>
 </center>
 <script>
   let toggle = button => {
