@@ -162,3 +162,8 @@ body {
     bottom: 100%;
   }
 }
+button{
+padding: 0;
+border: none;
+background: none;
+}
