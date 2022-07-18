@@ -47,25 +47,18 @@ text-align: center;
 <script type="text/javascript" src="script.js">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <div class="container">
-  <iframe class="responsive-iframe" id="myiframe" src="https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview" allow="autoplay" style="width:100%;"></iframe>
+<iframe  width="560" height="315" class="responsive-iframe" id="myiframe" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br /><br /><center>
-<button onclick="toggle(this);">Change Movie</button>
+<select id="MySelectMenu">
+  <option value="https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview">Episode 21</option>
+  <option value="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview">Episode 20 </option>
+</select>
+<center>
+<button onClick="newSrc();">Change Iframe Src</button>
 </center>
-<script>
-  let toggle = button => {
-    let element = document.getElementById("myiframe");
-    let epione = "https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview";
-    let epitwo = "https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" ;
 
-    if (element.src = epione) {
-       button.innerText = "Episode (2)";
-       element.src = epitwo;
-    } els {
-       button.innerText = "Episode (1)";
-       element.src = epione; 
-    }
-  }
+<script>
+  function newSrc() { var e = document.getElementById("MySelectMenu"); var newSrc = e.options[e.selectedIndex].value; document.getElementById("MyFrame").src=newSrc; }
 </script>
 
 </body>
