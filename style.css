@@ -85,7 +85,24 @@ text-align: center;
   color: #fff;
 }
 
-
-
-
-
+.trns-text {
+  background-color:white -20px -20px no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  /* Below is not needed */
+  display:block;
+  font-size: 200px;
+  font-family: arial;
+  text-align: center;
+  margin-top: -20px;
+  font-weight: bold;
+  letter-spacing: -25px;
+  background-size: cover;
+}
+.non-trns {
+  color: #000;
+  margin-top: -200px;
+  text-align: center;
+  font-family: calibri;
+  font-size: 25px;
+}
