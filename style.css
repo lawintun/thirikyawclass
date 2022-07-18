@@ -59,7 +59,7 @@ margin-bottom:70px;
 
 
 }
-.main button:hover{
+main button:hover{
  box-shadow: 2px 2px 5px #fff;
  border-radius:25px;
  background-color:rgba(0,0,0,0.1);
