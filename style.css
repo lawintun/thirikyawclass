@@ -30,6 +30,17 @@ body{
  margin-bottom : 80px;
 }
 
+input[type="text"]
+{   color:#fff;
+    background: transparent;
+    border: none;
+}
+
+button{
+    color:#fff#
+    background: transparent;
+    border: none;
+}
 
 
 
