@@ -23,7 +23,7 @@
   width: 100%;
   height: 100%;
 }
-button{
+button, select{
     
     border: none;
     background-color: transparent; 
@@ -49,11 +49,11 @@ text-align: center;
 <div class="container">
 <iframe  width="560" height="315" class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<center>
 <select id="MySelectMenu">
   <option value="https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview">Episode 21</option>
   <option value="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview">Episode 20 </option>
 </select>
-<center>
 <button onClick="newSrc();">Change Iframe Src</button>
 </center>
 
