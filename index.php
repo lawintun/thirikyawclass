@@ -11,25 +11,7 @@
    <body>
 
 
-<div class="login-box">
-  <h2>The Whole Welcome Memo</h2>
-  <form onsubmit="return myfunction()" id="myform">
-    <div class="user-box">
-      <input type="text" name="uname" id="uname" required="">
-      <label>Username</label>
-    </div>
-    <a href="#">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <input type="Submit" style="padding: 0;
-border: none;
-background: none; color:#57FEFF;" />
-    </a>
-
-  </form>
-</div>
+<button onclick="myfunction()">Button</button>
 
    </body>
 </html>
