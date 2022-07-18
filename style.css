@@ -35,7 +35,7 @@ input[type="text"],input[type="password"]
     background: transparent;
   outline: 0;
   border-width: 0 0 2px;
-  border-color: blue;
+  border-color: white;
 
 }
 
@@ -49,9 +49,7 @@ button{
     background-color: transparent; 
     border: none;
     border-radius: 12px;
-    height: 45px; 
-
-    width: 70px; 
+    
 
     color: #fff; 
 
