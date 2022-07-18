@@ -8,27 +8,15 @@
  </head>
    <body>
 
-<div class="login">
-  <h2>Login</h2>
-  <form>
-    <div class="mydiv">
+<center>
       <input type="text" id="usn" required="">
       <label>Username</label>
-    </div>
-    <div class="mydiv">
       <input type="password" id="pwd" required="">
       <label>Password</label>
-    </div>
-    <a href="#"><button class="invisible" onclick="myfunction()">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      Submit
+   <button onclick="myfunction()">
+     Submit
 </button>
-    </a>
-  </form>
-</div>
-
+   
+</center>
    </body>
 </html>
