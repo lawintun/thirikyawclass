@@ -16,9 +16,14 @@
 <div class="header">
 <h1>Login</h1>
 </div>
-   <span>
+
+      <div class="wrapper">
+<div class="input-data">
+   
       <input type="text" class="input" id="usn" placeholder="Username" required="">
-   </span>
+   <div class="underline"></div>
+  </div>
+</div>
 <br>
 <span>   
    <input type="password" class="input" id="pwd" placeholder="Password" required="">
