@@ -45,7 +45,8 @@ input:focus {
 
 
 button{
-    border-color:none;
+    padding: 0;
+    border: none;
     background-color: transparent; 
    color: #fff; 
    font-size: 30px; 
