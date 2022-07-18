@@ -47,7 +47,7 @@ text-align: center;
 <script type="text/javascript" src="script.js">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <div class="container">
-  <iframe class="responsive-iframe" id="myiframe" src="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" allow="autoplay" style="width:100%;"></iframe>
+  <iframe class="responsive-iframe" id="myiframe" src="epione" allow="autoplay" style="width:100%;"></iframe>
 </div>
 <br /><br /><center>
 <button onclick="toggle(this);">Change Movie</button>
@@ -58,7 +58,7 @@ text-align: center;
     let epione = "https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview";
     let epitwo = "https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" ;
 
-    if (element.src = epitwo) {
+    if (element.src = epione) {
        button.innerText = "Episode (2)";
        element.src = epione;
     } els {
