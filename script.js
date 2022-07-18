@@ -12,8 +12,7 @@ function func() {
 function myfunction(){
 var uname = document.getElementById('uname').value;
     if(uname == 'DawPyae'){ 
-    document.getElementById('myform').hiddden = true;
-  }
+    alert("You win "); }
  
     else{
     alert("You need to fill valid username ! ");
