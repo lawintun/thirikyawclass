@@ -45,12 +45,12 @@ input:focus {
 
 
 button{
-    padding: 0;
+    
     border: none;
     background-color: transparent; 
    color: #fff; 
    font-size: 30px; 
-   border-radius:25px;
+   border-radius:12px;
   background-color:rgba(0,0,0,0.1);
   box-shadow: 0 0 17px #fff;
 text-align: center;
