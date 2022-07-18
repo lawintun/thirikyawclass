@@ -34,7 +34,7 @@ body{
  text-align: center;
 }
 
-.main input,button{
+.main {
   width: 70px;
   height: 45px;
   border-radius:25px;
