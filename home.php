@@ -23,6 +23,22 @@
   width: 100%;
   height: 100%;
 }
+button{
+    
+    border: none;
+    background-color: transparent; 
+   color: #fff; 
+   font-size: 30px; 
+   border-radius:10px;
+  background-color:rgba(0,0,0,0.1);
+  box-shadow: 0 0 17px #fff;
+text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 </style>
 
 
