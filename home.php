@@ -55,15 +55,15 @@ text-align: center;
 <script>
   let toggle = button => {
     let element = document.getElementById("myiframe");
-    let hidden = element.getAttribute("hidden");
-    let dtwo = document.getElementsByName("fname");
-    
-    if (hidden) {
-       element.removeAttribute("hidden");
-       button.innerText = "Hide Memo";
+    let epione = "https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview";
+    let epitwo = "https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" ;
+
+    if (element.src = epione) {
+       button.innerText = "Episode (2)";
+       element.src = epitwo;
     } else {
-       element.setAttribute("hidden", "hidden");
-       button.innerText = "Show Memo";
+       button.innerText = "Episode (1)";
+       element.src = epione; 
     }
   }
 </script>
