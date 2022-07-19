@@ -119,7 +119,7 @@ let title=document.querySelector('.main-video .title');
 listVideo.foreach(video =>{
   video.onclick = () => {
    listVideo.foreach(vid = vid.classList.remove('active'));
-video.classList.add('active'));
+video.classList.add('active');
 if (video.classList.contains('active')) { let src = video.childern[0].getAttribute('src'); 
 mainVideo.src = src ; 
 let text = video.childern[1].innerHTML;
