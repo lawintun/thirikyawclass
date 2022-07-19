@@ -116,7 +116,7 @@ grid-template-columns:1fr;
 let listVideo = document.querySelectorAll('.video-list .vid');
 let mainVideo = document.querySelector('.main-video iframe');
 let title=document.querySelector('.main-video .title');
-listVideo.foreach(iframe =>{
+listVideo.foreach(video =>{
   video.onclick = () => {
    listVideo.foreach(vid = vid.classList.remove('active'));
 video.classList.add('active'));
