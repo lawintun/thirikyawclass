@@ -31,14 +31,13 @@
      Submit
 </button></center>
 </div>
-
-<div class="light">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
-
+<br>
+<br>
+<br>
+<br>
+<center>
+<marquee><h5>THIS APP IS PROVIDED BY "Information Service Team" OF 3IT ENGINEERING STUDENTS. </h5></marquee>
+</center>
 
    </body>
 </html>
