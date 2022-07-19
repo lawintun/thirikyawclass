@@ -112,22 +112,38 @@ grid-template-columns:1fr;
 </style>
 </head>
    <body>
+<script>
+let listVideo = document.querySelectorAll('.video-list .vid');
+let mainVideo = document.querySelector('.main-video iframe');
+let title=document.querySelector('.main-video .title');
+listVideo.foreach(iframe =>{
+  video.onclick = () => {
+   listVideo.foreach(vid = vid.classList.remove('active'));
+video.classList.add('active'));
+if (video.classList.contains('active')) { let src = video.childern[0].getAttribute('src'); 
+mainVideo.src = src ; 
+let text = video.childern[1].innerHTML;
+title.innerHTML = text;
+};
+};
+});
+</script>
 <h3 class="heading">TUM MEMO</h3>
 <div class="container">
 <div class="main-video">
 <div class="video">
-<iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write;" allowfullscreen></iframe>
-<h3 class="title">Khin Khin Htar Pyo - 1 </h3>
+<iframe class="responsive-iframe" id="MyFrame" src="https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write;" allowfullscreen></iframe>
+<h3 class="title">TUM The Whole Welcome Part-21 </h3>
 </div>
 </div>
 <div class="video-list">
 <div class="vid active">
-<iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h3 class="title">Khin Khin Htar Pyo - 2</h3>
+<iframe class="responsive-iframe" id="MyFrame" src="https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">TUM The Whole Welcome Part-21 </h3>
 </div>
 <div class="vid">
-<iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h3 class="title">Khin Khin Htar Pyo - 3 </h3>
+<iframe class="responsive-iframe" id="MyFrame" src="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">TUM The Whole Welcome Part-20 </h3>
 </div>
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -171,5 +187,6 @@ grid-template-columns:1fr;
 </div>
 </div>
 </div>
+
 </body>
 </html>
