@@ -117,12 +117,12 @@ let listVideo = document.querySelectorAll('.video-list .vid');
 let mainVideo = document.querySelector('.main-video iframe');
 let title=document.querySelector('.main-video .title');
 listVideo.foreach(iframe =>{
-  iframe.onclick = () => {
+  video.onclick = () => {
    listVideo.foreach(vid = vid.classList.remove('active'));
 video.classList.add('active'));
-if (video.classList.contains('active')) { let src = iframe.childern[0].getAttribute('src'); 
+if (video.classList.contains('active')) { let src = video.childern[0].getAttribute('src'); 
 mainVideo.src = src ; 
-let text = iframe.childern[1].innerHTML;
+let text = video.childern[1].innerHTML;
 title.innerHTML = text;
 };
 };
