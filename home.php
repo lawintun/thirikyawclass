@@ -46,8 +46,8 @@ text-align: center;
    <body>
 <script type="text/javascript" src="script.js">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<div class="containers">
-<iframe  width="100%" height="315" class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="container">
+<video id = "MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" controls muted autoplay > </video>
 </div>
 <center>
 <select id="MySelectMenu">
