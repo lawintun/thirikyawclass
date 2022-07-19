@@ -79,6 +79,30 @@ padding:10px;
 border: 1px solid rgba(0,0,0,0.1);
 cursor:pointer;
 }
+.container .video-list .vid:hover{
+ background:#eee;
+}
+.container .video-list .vid.active{
+background:#2980b9;
+}
+.container .video-list .vid.active .title{
+color:#fff;
+}
+.container .video-list .vid .title{
+color: #333;
+font-size:17px;
+}
+@media (max-width : 991px){
+.container {
+grid-template-columns: 1.5fr 1fr;
+padding : 10px;
+}
+@media (max-width : 768px){
+.container {
+grid-template-columns: 1fr;
+}
+
+
 
 
 </style>
@@ -93,7 +117,7 @@ cursor:pointer;
 </div>
 </div>
 <div class="video-list">
-<div class="vid">
+<div class="vid active">
 <iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo - 2</h3>
 </div>
