@@ -97,12 +97,13 @@ font-size:17px;
 grid-template-columns: 1.5fr 1fr;
 padding : 10px;
 }
+}
 @media (max-width : 768px){
 .container {
 grid-template-columns: 1fr;
 }
 
-
+}
 
 
 </style>
