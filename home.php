@@ -3,63 +3,123 @@
 <meta charset="UTF-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </script>
   <link rel="stylesheet" href="common.css">
  <style>
+*{
+margin:0; padding:0;
+border-sizing: border-box;
+text-transform: capitalize;
+font-family:Verdana,Geneva,Tahoma,san-serif;
+font-weight:normal;
+}
+body{
+background:#eee;
+}
+.heading{
+color:#444;
+font-size:40px;
+text-align:center;
+padding:10px;
+}
 .container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; 
+display:grid;
+grid-template-columns: 2fr 1fr;
+gap: 15px;
+align-items : flex-start;
+padding : 5px 5%;
+
+}
+.container .main-video{
+background : #fff;
+border-radius:5px;
+padding:10px;
+
 }
 
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
+.containter .main-video iframe{
+width:100%;
+border-radius:5px;
 }
-button, select{
-    
-    border: none;
-    background-color: transparent; 
-   color: #fff; 
-   font-size: 30px; 
-   border-radius:10px;
-  background-color:rgba(0,0,0,0.1);
-  box-shadow: 0 0 17px #fff;
-text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
-  cursor: pointer;
+
+.containter .main-video .title{
+color:#333;
+font-size:23px;
+padding-top:25px;
+padding-bottom:25px;
 }
+.containter .video-list {
+background : #fff;
+border-radius : 5px;
+height:520px;
+overflow-y:scroll;
+}
+.containter .video-list::webkit-scrollbar{
+width:7px;
+}
+.containter .video-list::webkit-scrollbar-track{
+background: #ccc;
+border-radius:50px;
+}
+.containter .video-list::webkit-scrollbar-thumb{
+background:#666;
+border-radius:50px;
+}
+
+.containter .video-list .vid iframe{
+width:100px;
+border-radius:5px;
+}
+.containter .video-list .vid{
+display:flex;
+align-items:center;
+gap:15px;
+background:#f7f7f7;
+border-radius:5px;
+margin:10px;
+padding:10px;
+border: 1px solid rgba(0,0,0,0.1);
+cursor:pointer;
+}
+
+
 </style>
-
-
 </head>
    <body>
 <script type="text/javascript" src="script.js">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<h3 class="heading">TUM MEMO</h3>
 <div class="container">
-<video id = "MyFrame" src="https://youtu.be/FUQnH9DZvAk" controls muted autoplay > </video>
+<div class="main-video">
+<div class="video">
+<iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">Khin Khin Htar Pyo - 1 </h3>
 </div>
-<center>
-<select id="MySelectMenu">
-  <option value="https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview">Episode 21</option>
-  <option value="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview">Episode 20 </option>
-</select>
-<button onClick="newSrc();">Choose Episode</button>
-</center>
-
-<script>
-  function newSrc() { var e = document.getElementById("MySelectMenu"); var newSrc = e.options[e.selectedIndex].value; document.getElementById("MyFrame").src=newSrc; }
-</script>
-
+</div>
+<div class="video-list">
+<div class="vid">
+<iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">Khin Khin Htar Pyo - 2</h3>
+</div>
+</div>
+<div class="video-list">
+<div class="vid">
+<iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">Khin Khin Htar Pyo - 3 </h3>
+</div>
+</div>
+<div class="video-list">
+<div class="vid">
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">Khin Khin Htar Pyo -4 </h3>
+</div>
+</div>
+<div class="video-list">
+<div class="vid">
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">Khin Khin Htar Pyo -5 </h3>
+</div>
+</div>
+</div>
 </body>
 </html>
