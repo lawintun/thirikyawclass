@@ -37,7 +37,7 @@ padding:10px;
 
 }
 
-.containter .main-video iframe{
+.containter .main-video .responsive-iframe{
 width:100%;
 border-radius:5px;
 }
@@ -66,7 +66,7 @@ background:#666;
 border-radius:50px;
 }
 
-.containter .video-list .vid iframe{
+.containter .video-list .vid .responsive-iframe{
 width:100px;
 border-radius:5px;
 }
