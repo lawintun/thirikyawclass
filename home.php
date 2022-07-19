@@ -3,13 +3,10 @@
 <meta charset="UTF-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</script>
- <style>
+<style>
 </style>
 </head>
    <body>
-<script type="text/javascript" src="script.js">
-
 <h3 class="heading">TUM MEMO</h3>
 <div class="container">
 <div class="main-video">
