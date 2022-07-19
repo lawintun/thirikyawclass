@@ -102,7 +102,6 @@ padding : 10px;
 .container {
 grid-template-columns: 1fr;
 }
-
 }
 
 
