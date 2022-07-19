@@ -23,9 +23,10 @@ padding:10px;
 .container {
 display:grid;
 grid-template-columns:2fr 1fr;
+grid-template-rows:1;
 gap:15px;
-align-items : flex-start;
-padding : 5px 5%;
+align-items:flex-start;
+padding:5px 5%;
 
 }
 .container .main-video{
@@ -49,7 +50,7 @@ padding-bottom:25px;
 .container .video-list {
 background : #fff;
 border-radius : 5px;
-height:180px;
+height:520px;
 overflow-y:scroll;
 }
 .container .video-list::webkit-scrollbar{
@@ -97,7 +98,7 @@ font-size:17px;
 grid-template-columns: 1.5fr 1fr;
 padding : 10px;
 }
-.container .main-video .video{
+.container .main-video iframe{
 height:100%;
 border-radius:5px;
 }
@@ -107,8 +108,6 @@ border-radius:5px;
 grid-template-columns:1fr;
 }
 }
-
-
 
 </style>
 </head>
@@ -126,68 +125,46 @@ grid-template-columns:1fr;
 <iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo - 2</h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo - 3 </h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -5 </h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-</div>
-<div class="video-list">
 <div class="vid">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
