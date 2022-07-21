@@ -189,13 +189,13 @@ storeID(i);
 <div class="container">
 <div class="main-video">
 <div class="video" id="main">
-<iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/KLxUSuT4uc0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write;" allowfullscreen></iframe>
+<iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/6RZ2pg4gOT8" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write;" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME -PREPARATION </h3>
 </div>
 </div>
 <div class="video-list">
 <div class="vid active" onclick="encoding(this.id)" id="act">
-<iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/KLxUSuT4uc0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/6RZ2pg4gOT8" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME -PREPARATION </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="a">
@@ -203,19 +203,19 @@ storeID(i);
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-1 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="b">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/KLxUSuT4uc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/6RZ2pg4gOT8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE WELCOME PART-24 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="c">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/KLxUSuT4uc0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/6RZ2pg4gOT8" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE WELCOME PART-23 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="d">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/6RZ2pg4gOT8" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="e">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/KLxUSuT4uc0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/6RZ2pg4gOT8" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-15 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="f">
