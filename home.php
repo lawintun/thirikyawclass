@@ -118,6 +118,8 @@ function encoding(idCode){
 let vid = document.getElementById(idCode);
 let src = vid.children[0].getAttribute('src');
 alert(src);
+let mainVideo = document.getElementById("main");
+maindVideo.children[0].src = src;
 }
 </script>
 <h3 class="heading">TUM MEMO</h3>
