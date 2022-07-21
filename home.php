@@ -50,7 +50,7 @@ padding-bottom:25px;
 .container .video-list {
 background : #fff;
 border-radius : 5px;
-height:520px;
+height:500px;
 overflow-y:scroll;
 }
 .container .video-list::webkit-scrollbar{
@@ -93,19 +93,41 @@ color:#fff;
 color: #333;
 font-size:17px;
 }
+
+/* nonactive */ 
+
+
+.container .video-list .vid:hover{
+ background:#eee;
+}
+.container .video-list .vid.nonactive{
+background:#eee;
+}
+.container .video-list .vid.nonactive .title{
+color:#fff;
+}
+.container .video-list .vid .title{
+color: #333;
+font-size:17px;
+}
+
+/* nonactive */
+
 @media (max-width :991px){
 .container {
 grid-template-columns: 1.5fr 1fr;
 padding : 10px;
 }
-.container .main-video iframe{
-height:100%;
-border-radius:5px;
+.main-video iframe{
+height:400px;
 }
 }
 @media (max-width :768px){
 .container {
 grid-template-columns:1fr;
+}
+.main-video iframe{
+height:200px;
 }
 }
 
@@ -113,18 +135,59 @@ grid-template-columns:1fr;
 </head>
    <body>
 <script>
+let i = [];
+function storeID(i){
+let lastItem = i[i.length-1];
+let activeColor = document.getElementById(i.length-1);
+activeColor.classList.add('active');
+let previousActive = document.getElementById(i[i.length]);
+previousActive.classList.add('nonactive');
+}
 
 function encoding(idCode){
+
+
 let vid = document.getElementById(idCode);
+
+
 let src = vid.children[0].getAttribute('src');
-alert(src);
+
+
 let mainVideo = document.getElementById("main");
-maindVideo.children[0].src = src;
-}
+
+
+let mainSrc = mainVideo.children[0].getAttribute('src');
+
+
+let activeVideo = document.getElementById('act'); 
+
+let listVideo = document.querySelectorAll('.video-list .vid');
+
+
+let title = vid.children[1].innerHTML;
+
+let activeVid = document.querySelector(".vid");
+activeVid.classList.remove("active");
+
+
+mainVideo.children[0].src = src ;
+mainVideo.children[1].innerHTML = title ;
+
+i += " "+idCode;
+
+storeID(i);
+
+} 
+
+
+
+
+
+
 </script>
 <h3 class="heading">TUM MEMO</h3>
 <div class="container">
-<div class="main-video" id="main">
+<div class="main-video">
 <div class="video" id="main">
 <iframe class="responsive-iframe" id="MyFrame" src="https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write;" allowfullscreen></iframe>
 <h3 class="title">TUM The Whole Welcome Part-21 </h3>
