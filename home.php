@@ -113,71 +113,71 @@ grid-template-columns:1fr;
 </head>
    <body>
 <script>
-let vdo = document.getElementById('vid');
-vdo.setAttribute('onClick','myfunction()');
-function myfunction(){
-alert("weed");
+
+function encoding(idCode){
+let vid = document.getElementById(idCode);
+let src = vid.children[0].getAttribute('src');
+alert(src);
 }
 </script>
 <h3 class="heading">TUM MEMO</h3>
 <div class="container">
-<div class="main-video">
-<div class="video">
+<div class="main-video" id="main">
+<div class="video" id="main">
 <iframe class="responsive-iframe" id="MyFrame" src="https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write;" allowfullscreen></iframe>
 <h3 class="title">TUM The Whole Welcome Part-21 </h3>
 </div>
 </div>
 <div class="video-list">
-<div class="vid active">
+<div class="vid active" onclick="encoding(this.id)" id="act">
 <iframe class="responsive-iframe" id="MyFrame" src="https://drive.google.com/file/d/1RmYr7SaYZgWoWkUvAa1ZWd0RGJL3_xz3/preview" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM The Whole Welcome Part-21 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="a">
 <iframe class="responsive-iframe" id="MyFrame" src="https://drive.google.com/file/d/1QR5aE3rO0gmpUVy0J1WQFBRpW9wqGIwZ/preview" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM The Whole Welcome Part-20 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="b">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h3 class="title">Khin Khin Htar Pyo -4 </h3>
+<h3 class="title">Khin Khin Htar Pyo -14 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="c">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -5 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="d">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="e">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="f">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="g">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="h">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="i">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="j">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
-<div class="vid">
+<div class="vid" onclick="encoding(this.id)" id="k">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
 </div>
 </div>
-
 </body>
 </html>
