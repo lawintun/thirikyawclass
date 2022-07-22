@@ -216,11 +216,11 @@ storeID(i);
 <h3 class="title">TUM THE WHOLE WELCOME PART-24 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="c">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/nWheBFO-kuY" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/c5EEEYU1kTs" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE WELCOME PART-23 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="d">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/6RZ2pg4gOT8" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/PQEJsbz92Kw" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -4 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="e">
@@ -228,7 +228,7 @@ storeID(i);
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-15 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="f">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/c5EEEYU1kTs" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -5 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="g">
@@ -236,7 +236,7 @@ storeID(i);
 <h3 class="title">Khin Khin Htar Pyo -6 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="h">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/PQEJsbz92Kw" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -7 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="i">
@@ -244,7 +244,7 @@ storeID(i);
 <h3 class="title">Khin Khin Htar Pyo -8 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="j">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/z6uTa3_6VK0" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/PQEJsbz92Kw" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">Khin Khin Htar Pyo -9 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="k">
