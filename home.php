@@ -130,6 +130,15 @@ grid-template-columns:1fr;
 height:200px;
 }
 }
+@media (min-width :991px){
+.container {
+grid-template-columns: 1.5fr 1fr;
+padding : 10px;
+}
+.main-video iframe{
+height:400px;
+}
+}
 
 </style>
 </head>
