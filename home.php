@@ -212,7 +212,7 @@ storeID(i);
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME - 47 (Couple) </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="b">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/6RZ2pg4gOT8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/StZrgvmm_mo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE WELCOME PART-24 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="c">
