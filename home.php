@@ -199,13 +199,13 @@ storeID(i);
 <div class="main-video">
 <div class="video" id="main">
 <iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/6RZ2pg4gOT8" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write;" allowfullscreen></iframe>
-<h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-44 (Dance KRP) </h3>
+<h3 class="title">TUM THE WHOLE FRESHER WELCOME (Dance KRP) </h3>
 </div>
 </div>
 <div class="video-list">
 <div class="vid active" onclick="encoding(this.id)" id="act">
 <iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/6RZ2pg4gOT8" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-44 (Dance KRP) </h3>
+<h3 class="title">TUM THE WHOLE FRESHER WELCOME (Dance KRP) </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="a">
 <iframe class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/om7UKPlNqi4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>
