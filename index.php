@@ -36,7 +36,7 @@
 <br>
 <br>
 <center>
-<marquee><h5>THIS APP IS PROVIDED BY "Information Service Team" OF 3IT ENGINEERING STUDENTS. </h5></marquee>
+<marquee><h5>THIS APP IS PROVIDED BY "Media Service Volunteers Squad" OF 3IT ENGINEERING STUDENTS. </h5></marquee>
 </center>
 
    </body>
