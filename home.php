@@ -247,9 +247,21 @@ storeID(i);
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/CZCjWPy6v44" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-</h3>
 </div>
-<div class="vid" onclick="encoding(this.id)" id="k">
+<div class="vid" onclick="encoding(this.id)" id="jj">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/CZCjWPy6v44" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-</h3>
+</div>
+<div class="vid" onclick="encoding(this.id)" id="k">
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/a7kg9LQxa0Y" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">TUM THE WHOLE FRESHER WELCOME PART- 2 </h3>
+</div>
+<div class="vid" onclick="encoding(this.id)" id="j">
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/CZCjWPy6v44" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-</h3>
+</div>
+<div class="vid" onclick="encoding(this.id)" id="j">
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/CZCjWPy6v44" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">TUM THE WHOLE FRESHER WELCOME - PREPARATION</h3>
 </div>
 </div>
 </div>
