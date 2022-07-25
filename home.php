@@ -248,8 +248,8 @@ storeID(i);
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-</h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="jj">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/1oZpUTOh9TI" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-</h3>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/tYU9fcAsDA8" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 class="title">TUM THE WHOLE FRESHER WELCOME PART- 3 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="k">
 <iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/a7kg9LQxa0Y" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
