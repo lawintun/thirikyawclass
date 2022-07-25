@@ -220,11 +220,11 @@ storeID(i);
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-52 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="d">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/nWheBFO-kuY" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/BJAJCs2Q7Ow" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-31 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="e">
-<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/EXdnZX1_h5g" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  class="responsive-iframe" id="MyFrame" src="https://www.youtube.com/embed/BJAJCs2Q7Ow" allow="autoplay" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h3 class="title">TUM THE WHOLE FRESHER WELCOME PART-30 </h3>
 </div>
 <div class="vid" onclick="encoding(this.id)" id="f">
