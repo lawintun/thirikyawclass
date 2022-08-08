@@ -1,3 +1,7 @@
+<?php 
+  function login();
+?> 
+
 <html>
  <head><title>TUM The Whole Welcome Memo</title>
 <meta charset="UTF-8" />
@@ -41,3 +45,6 @@
 
    </body>
 </html>
+<?php 
+}
+?> 
